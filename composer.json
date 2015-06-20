@@ -1,0 +1,19 @@
+{
+  "name": "ratno/belajar",
+  "description": "Belajar composer",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ratno Putro Sulistiyono",
+      "email": "ratno@knoqdown.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload":{
+    "psr-4":{
+      "Belajar\\":"src/"
+    }
+  }
+}
